@@ -16786,3 +16786,183 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-03 14:18:35 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-03 14:18:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-09 13:22:46 +0200
+Processing by OperationsController#index as HTML
+  Rendered operations/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 604ms (Views: 591.9ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-09 13:22:47 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-09 13:22:56 +0200
+Processing by OperationsController#new as HTML
+Completed 500 Internal Server Error in 10ms
+
+HTTP::ConnectionError (failed to connect: Connection refused - connect(2) for "localhost" port 5000):
+  app/models/operation.rb:18:in `estimate'
+  app/models/operation.rb:25:in `create_random'
+  app/controllers/operations_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-09 13:22:56 +0200
+Processing by OperationsController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+HTTP::ConnectionError (failed to connect: Connection refused - connect(2) for "localhost" port 5000):
+  app/models/operation.rb:18:in `estimate'
+  app/models/operation.rb:25:in `create_random'
+  app/controllers/operations_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-09 13:23:28 +0200
+Processing by OperationsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+HTTP::ConnectionError (failed to connect: Connection refused - connect(2) for "localhost" port 5000):
+  app/models/operation.rb:18:in `estimate'
+  app/models/operation.rb:25:in `create_random'
+  app/controllers/operations_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-09 13:23:28 +0200
+Processing by OperationsController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+HTTP::ConnectionError (failed to connect: Connection refused - connect(2) for "localhost" port 5000):
+  app/models/operation.rb:18:in `estimate'
+  app/models/operation.rb:25:in `create_random'
+  app/controllers/operations_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+Processing by OperationsController#index as HTML
+  Rendered operations/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 130ms (Views: 119.8ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 13:29:36 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-10 13:29:41 +0200
+Processing by OperationsController#new as HTML
+Completed 500 Internal Server Error in 20ms
+
+HTTP::ConnectionError (failed to connect: Connection refused - connect(2) for "localhost" port 5000):
+  app/models/operation.rb:18:in `estimate'
+  app/models/operation.rb:25:in `create_random'
+  app/controllers/operations_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-10 13:29:41 +0200
+Processing by OperationsController#new as HTML
+Completed 500 Internal Server Error in 4ms
+
+HTTP::ConnectionError (failed to connect: Connection refused - connect(2) for "localhost" port 5000):
+  app/models/operation.rb:18:in `estimate'
+  app/models/operation.rb:25:in `create_random'
+  app/controllers/operations_controller.rb:8:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
