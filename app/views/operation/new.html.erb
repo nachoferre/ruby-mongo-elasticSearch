@@ -6,6 +6,7 @@
             <th>operacion</th>
             <th>operando 2</th>
             <th>resultado</th>
+            <th>estimacion</th>
             <th colspan="7"></th>
         </tr>
     </head>
@@ -21,6 +22,9 @@
                 <%= f.text_field :resultado, :value => "" %>
 
                 <%= f.submit 'Join', :name => "join" %>
+            </th>
+            <th>
+                <%=@operation.estimacion%>
                 <% end %>
             </th>
         </tr>

@@ -8854,3 +8854,3118 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-04-29 21:20:36
 
 
 Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-04-29 21:20:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 18:43:32 +0200
+Processing by OperationController#index as HTML
+  Rendered operation/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 363ms (Views: 356.4ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:43:33 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:43:37 +0200
+Processing by OperationController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                            ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                                       ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                                                  ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                                                             ^):
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/controllers/operation_controller.rb:20:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:43:37 +0200
+Processing by OperationController#new as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                            ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                                       ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                                                  ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/models/operation.rb:34: syntax error, unexpected '>'
+        table = Hash["+" ==> 0, "-" ==> 1, "*" ==> 2, "/" ==> 3]
+                                                             ^):
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/models/operation.rb:34: syntax error, unexpected '>'
+  app/controllers/operation_controller.rb:20:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 18:44:43 +0200
+Processing by OperationController#index as HTML
+  Rendered operation/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 83.8ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:44:45 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.6600ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('57320ffd6e6163143c000000'), "time0"=>1462898685.3327255, "num1"=>48, "num2"=>74, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 3.9207ms
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (undefined method `calculate_result_estimation' for #<Operation:0x000000054f1f28>):
+  app/controllers/operation_controller.rb:20:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:44:45 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('57320ffd6e6163143c010000'), "time0"=>1462898685.3663402, "num1"=>95, "num2"=>25, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3019ms
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `calculate_result_estimation' for #<Operation:0x0000000531aba0>):
+  app/controllers/operation_controller.rb:20:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 18:45:09 +0200
+Processing by OperationController#index as HTML
+  Rendered operation/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 53.4ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:45:11 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573210176e6163143c020000'), "time0"=>1462898711.1985204, "num1"=>62, "num2"=>57, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5693ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210176e6163143c020000')} update={"$set"=>{"time0"=>1462898711.1985204, "num1"=>62, "num2"=>57, "op"=>"-", "resultado"=>5}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 2.6189ms
+Completed 500 Internal Server Error in 11ms
+
+NameError (undefined local variable or method `op1' for #<Operation:0x00000005471b70>):
+  app/models/operation.rb:36:in `calculate_result_estimation'
+  app/controllers/operation_controller.rb:20:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:45:11 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573210176e6163143c030000'), "time0"=>1462898711.2263079, "num1"=>84, "num2"=>59, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3435ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210176e6163143c030000')} update={"$set"=>{"time0"=>1462898711.2263079, "num1"=>84, "num2"=>59, "op"=>"/", "resultado"=>1}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3434ms
+Completed 500 Internal Server Error in 2ms
+
+NameError (undefined local variable or method `op1' for #<Operation:0x000000052c4c28>):
+  app/models/operation.rb:36:in `calculate_result_estimation'
+  app/controllers/operation_controller.rb:20:in `new'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 18:45:40 +0200
+Processing by OperationController#index as HTML
+  Rendered operation/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 60ms (Views: 59.6ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:45:42 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573210366e6163143c040000'), "time0"=>1462898742.3091676, "num1"=>78, "num2"=>19, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5387ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210366e6163143c040000')} update={"$set"=>{"time0"=>1462898742.3091676, "num1"=>78, "num2"=>19, "op"=>"+", "resultado"=>97}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3852ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210366e6163143c040000')} update={"$set"=>{"estimacion"=>"9.45626253865"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5862ms
+  Rendered operation/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 74ms (Views: 63.0ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:47:33 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3935ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573210a56e6163143c050000'), "time0"=>1462898853.9634943, "num1"=>48, "num2"=>18, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4258ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210a56e6163143c050000')} update={"$set"=>{"time0"=>1462898853.9634943, "num1"=>48, "num2"=>18, "op"=>"-", "resultado"=>30}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6928ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210a56e6163143c050000')} update={"$set"=>{"estimacion"=>"8.72433470678"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4527ms
+  Rendered operation/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 77ms (Views: 68.4ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:34 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2531ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573210ba6e6163143c060000'), "time0"=>1462898874.4294686, "num1"=>95, "num2"=>20, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2725ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210ba6e6163143c060000')} update={"$set"=>{"time0"=>1462898874.4294686, "num1"=>95, "num2"=>20, "op"=>"/", "resultado"=>4}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2615ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210ba6e6163143c060000')} update={"$set"=>{"estimacion"=>"12.8387002233"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3654ms
+  Rendered operation/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 64ms (Views: 59.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:47:54 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3440ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573210f86e6163143c070000'), "time0"=>1462898936.3272846, "num1"=>39, "num2"=>29, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3288ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210f86e6163143c070000')} update={"$set"=>{"time0"=>1462898936.3272846, "num1"=>39, "num2"=>29, "op"=>"+", "resultado"=>68}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3531ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573210f86e6163143c070000')} update={"$set"=>{"estimacion"=>"7.70584022896"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6805ms
+  Rendered operation/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 49.2ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:48:56 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:49:13 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8614ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211096e6163143c080000'), "time0"=>1462898953.927198, "num1"=>81, "num2"=>15, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4659ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211096e6163143c080000')} update={"$set"=>{"time0"=>1462898953.927198, "num1"=>81, "num2"=>15, "op"=>"-", "resultado"=>66}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5437ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211096e6163143c080000')} update={"$set"=>{"estimacion"=>"10.3402420622"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 1.5888ms
+  Rendered operation/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 97ms (Views: 84.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:49:14 +0200
+
+
+Started GET "/movie" for 127.0.0.1 at 2016-05-10 18:49:42 +0200
+
+ActionController::RoutingError (No route matches [GET] "/movie"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-05-10 18:49:54 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+LoadError (cannot load such file -- elasticsearch/model):
+  app/models/movie.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:14:in `index'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:51:56 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6866ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211ac6e6163143c090000'), "time0"=>1462899116.259687, "num1"=>26, "num2"=>61, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8081ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ac6e6163143c090000')} update={"$set"=>{"time0"=>1462899116.259687, "num1"=>26, "num2"=>61, "op"=>"-", "resultado"=>-35}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7787ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ac6e6163143c090000')} update={"$set"=>{"estimacion"=>"8.6588681893"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8272ms
+  Rendered operation/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 20ms
+
+SyntaxError (/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:28: syntax error, unexpected keyword_end
+...eeze;@output_buffer.append=(end);@output_buffer.safe_append='
+...                               ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:35: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:37: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/operation/new.html.erb:28: syntax error, unexpected keyword_end
+  app/views/operation/new.html.erb:35: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/operation/new.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:52:22 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211c66e6163143c0a0000'), "time0"=>1462899142.8418634, "num1"=>46, "num2"=>90, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4104ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211c66e6163143c0a0000')} update={"$set"=>{"time0"=>1462899142.8418634, "num1"=>46, "num2"=>90, "op"=>"*", "resultado"=>4140}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3518ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211c66e6163143c0a0000')} update={"$set"=>{"estimacion"=>"11.227803505"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5524ms
+  Rendered operation/new.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:25: syntax error, unexpected keyword_end
+...eeze;@output_buffer.append=(end);@output_buffer.safe_append='
+...                               ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:35: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/operation/new.html.erb:25: syntax error, unexpected keyword_end
+  app/views/operation/new.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/operation/new.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:52:28 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211cc6e6163143c0b0000'), "time0"=>1462899148.3348513, "num1"=>52, "num2"=>78, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6960ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211cc6e6163143c0b0000')} update={"$set"=>{"time0"=>1462899148.3348513, "num1"=>52, "num2"=>78, "op"=>"*", "resultado"=>4056}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5570ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211cc6e6163143c0b0000')} update={"$set"=>{"estimacion"=>"11.2389275992"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7361ms
+  Rendered operation/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 12ms
+
+SyntaxError (/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:25: syntax error, unexpected keyword_end
+...eeze;@output_buffer.append=(end);@output_buffer.safe_append='
+...                               ^
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+/home/nacho/Desktop/ruby-mongo-elasticSearch/app/views/operation/new.html.erb:35: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/operation/new.html.erb:25: syntax error, unexpected keyword_end
+  app/views/operation/new.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/operation/new.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:52:45 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211dd6e6163143c0c0000'), "time0"=>1462899165.929799, "num1"=>59, "num2"=>5, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3871ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211dd6e6163143c0c0000')} update={"$set"=>{"time0"=>1462899165.929799, "num1"=>59, "num2"=>5, "op"=>"*", "resultado"=>295}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2906ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211dd6e6163143c0c0000')} update={"$set"=>{"estimacion"=>"9.79589356005"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3778ms
+  Rendered operation/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 95ms (Views: 89.8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:52:46 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2805ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211ed6e6163143c0d0000'), "time0"=>1462899181.2378275, "num1"=>44, "num2"=>62, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2910ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ed6e6163143c0d0000')} update={"$set"=>{"time0"=>1462899181.2378275, "num1"=>44, "num2"=>62, "op"=>"-", "resultado"=>-18}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8318ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ed6e6163143c0d0000')} update={"$set"=>{"estimacion"=>"9.60533283664"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7251ms
+  Rendered operation/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 74ms (Views: 64.2ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:01 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:10 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2667ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211f66e6163143c0e0000'), "time0"=>1462899190.922439, "num1"=>33, "num2"=>38, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2806ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211f66e6163143c0e0000')} update={"$set"=>{"time0"=>1462899190.922439, "num1"=>33, "num2"=>38, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3375ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211f66e6163143c0e0000')} update={"$set"=>{"estimacion"=>"10.1078650158"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4305ms
+  Rendered operation/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 87ms (Views: 80.8ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:11 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6510ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211f96e6163143c0f0000'), "time0"=>1462899193.0753963, "num1"=>42, "num2"=>48, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7339ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211f96e6163143c0f0000')} update={"$set"=>{"time0"=>1462899193.0753963, "num1"=>42, "num2"=>48, "op"=>"*", "resultado"=>2016}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.9116ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211f96e6163143c0f0000')} update={"$set"=>{"estimacion"=>"9.98647884127"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8267ms
+  Rendered operation/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 118ms (Views: 103.0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:13 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211f96e6163143c100000'), "time0"=>1462899193.9377134, "num1"=>14, "num2"=>12, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7982ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211f96e6163143c100000')} update={"$set"=>{"time0"=>1462899193.9377134, "num1"=>14, "num2"=>12, "op"=>"/", "resultado"=>1}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6746ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211f96e6163143c100000')} update={"$set"=>{"estimacion"=>"8.49323570823"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7169ms
+  Rendered operation/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 100ms (Views: 88.6ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fa6e6163143c110000'), "time0"=>1462899194.4268253, "num1"=>31, "num2"=>74, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4295ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fa6e6163143c110000')} update={"$set"=>{"time0"=>1462899194.4268253, "num1"=>31, "num2"=>74, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3852ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fa6e6163143c110000')} update={"$set"=>{"estimacion"=>"10.893858489"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5651ms
+  Rendered operation/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 64ms (Views: 55.9ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fa6e6163143c120000'), "time0"=>1462899194.8841422, "num1"=>17, "num2"=>19, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3541ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fa6e6163143c120000')} update={"$set"=>{"time0"=>1462899194.8841422, "num1"=>17, "num2"=>19, "op"=>"-", "resultado"=>-2}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2699ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fa6e6163143c120000')} update={"$set"=>{"estimacion"=>"7.16149172685"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5580ms
+  Rendered operation/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 70ms (Views: 64.4ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:14 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fb6e6163143c130000'), "time0"=>1462899195.3149354, "num1"=>96, "num2"=>21, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4426ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fb6e6163143c130000')} update={"$set"=>{"time0"=>1462899195.3149354, "num1"=>96, "num2"=>21, "op"=>"-", "resultado"=>75}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4120ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fb6e6163143c130000')} update={"$set"=>{"estimacion"=>"11.2564664904"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4576ms
+  Rendered operation/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 69ms (Views: 62.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5072ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fb6e6163143c140000'), "time0"=>1462899195.747271, "num1"=>22, "num2"=>21, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4915ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fb6e6163143c140000')} update={"$set"=>{"time0"=>1462899195.747271, "num1"=>22, "num2"=>21, "op"=>"/", "resultado"=>1}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7099ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fb6e6163143c140000')} update={"$set"=>{"estimacion"=>"9.12502213432"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3608ms
+  Rendered operation/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 68ms (Views: 58.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:15 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fc6e6163143c150000'), "time0"=>1462899196.1738307, "num1"=>1, "num2"=>82, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6192ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fc6e6163143c150000')} update={"$set"=>{"time0"=>1462899196.1738307, "num1"=>1, "num2"=>82, "op"=>"+", "resultado"=>83}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5171ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fc6e6163143c150000')} update={"$set"=>{"estimacion"=>"7.06778967582"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5022ms
+  Rendered operation/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 68ms (Views: 60.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fc6e6163143c160000'), "time0"=>1462899196.5566573, "num1"=>60, "num2"=>16, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4838ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fc6e6163143c160000')} update={"$set"=>{"time0"=>1462899196.5566573, "num1"=>60, "num2"=>16, "op"=>"+", "resultado"=>76}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5234ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fc6e6163143c160000')} update={"$set"=>{"estimacion"=>"8.46044154726"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4600ms
+  Rendered operation/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 66ms (Views: 59.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:16 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fc6e6163143c170000'), "time0"=>1462899197.0025241, "num1"=>69, "num2"=>94, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5892ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fc6e6163143c170000')} update={"$set"=>{"time0"=>1462899197.0025241, "num1"=>69, "num2"=>94, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4166ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fc6e6163143c170000')} update={"$set"=>{"estimacion"=>"13.3334155995"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4640ms
+  Rendered operation/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 86ms (Views: 79.3ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fd6e6163143c180000'), "time0"=>1462899197.3942845, "num1"=>14, "num2"=>66, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4410ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fd6e6163143c180000')} update={"$set"=>{"time0"=>1462899197.3942845, "num1"=>14, "num2"=>66, "op"=>"*", "resultado"=>924}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3168ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fd6e6163143c180000')} update={"$set"=>{"estimacion"=>"8.99679586487"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3779ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 92ms (Views: 86.3ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fd6e6163143c190000'), "time0"=>1462899197.8680227, "num1"=>44, "num2"=>79, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5976ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fd6e6163143c190000')} update={"$set"=>{"time0"=>1462899197.8680227, "num1"=>44, "num2"=>79, "op"=>"+", "resultado"=>123}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7082ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fd6e6163143c190000')} update={"$set"=>{"estimacion"=>"9.1958006286"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4317ms
+  Rendered operation/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 74ms (Views: 64.0ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:17 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fe6e6163143c1a0000'), "time0"=>1462899198.2701645, "num1"=>86, "num2"=>85, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3487ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fe6e6163143c1a0000')} update={"$set"=>{"time0"=>1462899198.2701645, "num1"=>86, "num2"=>85, "op"=>"/", "resultado"=>1}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3354ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fe6e6163143c1a0000')} update={"$set"=>{"estimacion"=>"13.9818881669"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4162ms
+  Rendered operation/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 49.7ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211fe6e6163143c1b0000'), "time0"=>1462899198.6359196, "num1"=>77, "num2"=>61, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4616ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fe6e6163143c1b0000')} update={"$set"=>{"time0"=>1462899198.6359196, "num1"=>77, "num2"=>61, "op"=>"/", "resultado"=>1}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3549ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211fe6e6163143c1b0000')} update={"$set"=>{"estimacion"=>"12.9287188008"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3989ms
+  Rendered operation/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 59ms (Views: 53.2ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:18 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2955ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211ff6e6163143c1c0000'), "time0"=>1462899199.0194805, "num1"=>2, "num2"=>25, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2573ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ff6e6163143c1c0000')} update={"$set"=>{"time0"=>1462899199.0194805, "num1"=>2, "num2"=>25, "op"=>"-", "resultado"=>-23}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3883ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ff6e6163143c1c0000')} update={"$set"=>{"estimacion"=>"6.54140536286"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3748ms
+  Rendered operation/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 64ms (Views: 57.7ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211ff6e6163143c1d0000'), "time0"=>1462899199.4101975, "num1"=>80, "num2"=>38, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7738ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ff6e6163143c1d0000')} update={"$set"=>{"time0"=>1462899199.4101975, "num1"=>80, "num2"=>38, "op"=>"-", "resultado"=>42}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8954ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ff6e6163143c1d0000')} update={"$set"=>{"estimacion"=>"10.8566296588"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5037ms
+  Rendered operation/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 74ms (Views: 62.8ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573211ff6e6163143c1e0000'), "time0"=>1462899199.8183486, "num1"=>47, "num2"=>58, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3706ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ff6e6163143c1e0000')} update={"$set"=>{"time0"=>1462899199.8183486, "num1"=>47, "num2"=>58, "op"=>"*", "resultado"=>2726}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3490ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573211ff6e6163143c1e0000')} update={"$set"=>{"estimacion"=>"10.4893123602"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3744ms
+  Rendered operation/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 64ms (Views: 58.7ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:19 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212006e6163143c1f0000'), "time0"=>1462899200.1817086, "num1"=>98, "num2"=>62, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3984ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212006e6163143c1f0000')} update={"$set"=>{"time0"=>1462899200.1817086, "num1"=>98, "num2"=>62, "op"=>"/", "resultado"=>1}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4546ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212006e6163143c1f0000')} update={"$set"=>{"estimacion"=>"14.0288145274"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4162ms
+  Rendered operation/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 64ms (Views: 58.3ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212006e6163143c200000'), "time0"=>1462899200.5268135, "num1"=>52, "num2"=>80, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3279ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212006e6163143c200000')} update={"$set"=>{"time0"=>1462899200.5268135, "num1"=>52, "num2"=>80, "op"=>"*", "resultado"=>4160}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3453ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212006e6163143c200000')} update={"$set"=>{"estimacion"=>"11.2882839433"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5183ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 69ms (Views: 62.7ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212006e6163143c210000'), "time0"=>1462899200.8476765, "num1"=>45, "num2"=>35, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3901ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212006e6163143c210000')} update={"$set"=>{"time0"=>1462899200.8476765, "num1"=>45, "num2"=>35, "op"=>"*", "resultado"=>1575}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4046ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212006e6163143c210000')} update={"$set"=>{"estimacion"=>"9.81929368424"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3997ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 84ms (Views: 78.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:20 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212016e6163143c220000'), "time0"=>1462899201.212938, "num1"=>8, "num2"=>37, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4474ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212016e6163143c220000')} update={"$set"=>{"time0"=>1462899201.212938, "num1"=>8, "num2"=>37, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2880ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212016e6163143c220000')} update={"$set"=>{"estimacion"=>"8.80292785025"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3802ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 68ms (Views: 62.6ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212016e6163143c230000'), "time0"=>1462899201.575867, "num1"=>30, "num2"=>95, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3563ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212016e6163143c230000')} update={"$set"=>{"time0"=>1462899201.575867, "num1"=>30, "num2"=>95, "op"=>"-", "resultado"=>-65}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2960ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212016e6163143c230000')} update={"$set"=>{"estimacion"=>"9.7027674769"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4050ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 58ms (Views: 52.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:21 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212026e6163143c240000'), "time0"=>1462899202.3153722, "num1"=>62, "num2"=>93, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3499ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212026e6163143c240000')} update={"$set"=>{"time0"=>1462899202.3153722, "num1"=>62, "num2"=>93, "op"=>"-", "resultado"=>-31}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.2828ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212026e6163143c240000')} update={"$set"=>{"estimacion"=>"11.2921426446"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6424ms
+  Rendered operation/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 63ms (Views: 57.5ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212026e6163143c250000'), "time0"=>1462899202.6567159, "num1"=>3, "num2"=>95, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4444ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212026e6163143c250000')} update={"$set"=>{"time0"=>1462899202.6567159, "num1"=>3, "num2"=>95, "op"=>"+", "resultado"=>98}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3088ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212026e6163143c250000')} update={"$set"=>{"estimacion"=>"7.49102663154"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4802ms
+  Rendered operation/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 71ms (Views: 64.3ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:22 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212026e6163143c260000'), "time0"=>1462899202.995449, "num1"=>44, "num2"=>59, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6142ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212026e6163143c260000')} update={"$set"=>{"time0"=>1462899202.995449, "num1"=>44, "num2"=>59, "op"=>"*", "resultado"=>2596}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5756ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212026e6163143c260000')} update={"$set"=>{"estimacion"=>"10.360359453"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4018ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 68ms (Views: 58.8ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212036e6163143c270000'), "time0"=>1462899203.339861, "num1"=>93, "num2"=>98, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3574ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212036e6163143c270000')} update={"$set"=>{"time0"=>1462899203.339861, "num1"=>93, "num2"=>98, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4048ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212036e6163143c270000')} update={"$set"=>{"estimacion"=>"14.6611769213"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.9329ms
+  Rendered operation/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 66ms (Views: 57.9ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212036e6163143c280000'), "time0"=>1462899203.685945, "num1"=>66, "num2"=>70, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4159ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212036e6163143c280000')} update={"$set"=>{"time0"=>1462899203.685945, "num1"=>66, "num2"=>70, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3637ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212036e6163143c280000')} update={"$set"=>{"estimacion"=>"12.5875083918"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6370ms
+  Rendered operation/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 62.9ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:23 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212036e6163143c290000'), "time0"=>1462899203.9906244, "num1"=>67, "num2"=>28, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3453ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212036e6163143c290000')} update={"$set"=>{"time0"=>1462899203.9906244, "num1"=>67, "num2"=>28, "op"=>"+", "resultado"=>95}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5175ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212036e6163143c290000')} update={"$set"=>{"estimacion"=>"9.11505212967"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5956ms
+  Rendered operation/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 71ms (Views: 60.8ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212046e6163143c2a0000'), "time0"=>1462899204.3157895, "num1"=>94, "num2"=>47, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4226ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212046e6163143c2a0000')} update={"$set"=>{"time0"=>1462899204.3157895, "num1"=>94, "num2"=>47, "op"=>"-", "resultado"=>47}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3564ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212046e6163143c2a0000')} update={"$set"=>{"estimacion"=>"11.7956782434"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4191ms
+  Rendered operation/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 56.9ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212046e6163143c2b0000'), "time0"=>1462899204.6337056, "num1"=>17, "num2"=>84, "op"=>"-"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4154ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212046e6163143c2b0000')} update={"$set"=>{"time0"=>1462899204.6337056, "num1"=>17, "num2"=>84, "op"=>"-", "resultado"=>-67}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3329ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212046e6163143c2b0000')} update={"$set"=>{"estimacion"=>"8.76557290807"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5598ms
+  Rendered operation/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 62ms (Views: 56.4ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:24 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212046e6163143c2c0000'), "time0"=>1462899204.9128265, "num1"=>85, "num2"=>93, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3853ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212046e6163143c2c0000')} update={"$set"=>{"time0"=>1462899204.9128265, "num1"=>85, "num2"=>93, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3085ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212046e6163143c2c0000')} update={"$set"=>{"estimacion"=>"14.1281031833"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3769ms
+  Rendered operation/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 64.6ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212056e6163143c2d0000'), "time0"=>1462899205.2131288, "num1"=>14, "num2"=>35, "op"=>"*"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4333ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212056e6163143c2d0000')} update={"$set"=>{"time0"=>1462899205.2131288, "num1"=>14, "num2"=>35, "op"=>"*", "resultado"=>490}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3366ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212056e6163143c2d0000')} update={"$set"=>{"estimacion"=>"8.23177253229"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3966ms
+  Rendered operation/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 71ms (Views: 63.7ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('573212056e6163143c2e0000'), "time0"=>1462899205.5244064, "num1"=>86, "num2"=>54, "op"=>"+"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3543ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212056e6163143c2e0000')} update={"$set"=>{"time0"=>1462899205.5244064, "num1"=>86, "num2"=>54, "op"=>"+", "resultado"=>140}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.3303ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('573212056e6163143c2e0000')} update={"$set"=>{"estimacion"=>"10.7296814372"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4605ms
+  Rendered operation/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 98ms (Views: 92.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 18:53:25 +0200
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-05-10 18:53:56 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 8ms
+
+LoadError (cannot load such file -- elasticsearch/model):
+  app/models/movie.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:14:in `index'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+Processing by OperationController#index as HTML
+  Rendered operation/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 110ms (Views: 103.6ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:08 +0200
+
+
+Started GET "/operation/new" for 127.0.0.1 at 2016-05-10 19:30:10 +0200
+Processing by OperationController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1156ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('57321aa26e61630e0c000000'), "time0"=>1462901410.5865464, "num1"=>4, "num2"=>98, "op"=>"/"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8175ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('57321aa26e61630e0c000000')} update={"$set"=>{"time0"=>1462901410.5865464, "num1"=>4, "num2"=>98, "op"=>"/", "resultado"=>0}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4584ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('57321aa26e61630e0c000000')} update={"$set"=>{"estimacion"=>"10.1034549044"}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4229ms
+  Rendered operation/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 96ms (Views: 76.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3099ms
+  Rendered movies/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 78ms (Views: 66.9ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:30:16 +0200
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-05-10 19:30:18 +0200
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (8.9ms)
+  Rendered movies/new.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x00000006c0a7f0>:0x00000004cffbd0>):
+    1: <%= simple_form_for @movie do |f| %>
+    2:   <%= f.input :name %>
+    3:   <%= f.input :gender %>
+    4:   <%= f.input :description, as: :text %>
+  app/views/movies/_form.html.erb:1:in `_app_views_movies__form_html_erb___3293309536835292570_39810840'
+  app/views/movies/new.html.erb:3:in `_app_views_movies_new_html_erb___4529152841109932526_40363160'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-05-10 19:30:18 +0200
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (10.7ms)
+  Rendered movies/new.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `simple_form_for' for #<#<Class:0x00000006c0a7f0>:0x00000006cb61b8>):
+    1: <%= simple_form_for @movie do |f| %>
+    2:   <%= f.input :name %>
+    3:   <%= f.input :gender %>
+    4:   <%= f.input :description, as: :text %>
+  app/views/movies/_form.html.erb:1:in `_app_views_movies__form_html_erb___3293309536835292570_56903100'
+  app/views/movies/new.html.erb:3:in `_app_views_movies_new_html_erb___4529152841109932526_56993100'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (6.8ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2016-05-10 19:31:25 +0200
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (53.2ms)
+  Rendered movies/new.html.erb within layouts/application (56.6ms)
+Completed 200 OK in 177ms (Views: 161.4ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:26 +0200
+
+
+Started POST "/movies" for 127.0.0.1 at 2016-05-10 19:31:46 +0200
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4x2taZlx5HGbiPXHsXy/LySjWpCGAQ/F0RkH0ePSeZo=", "movie"=>{"name"=>"kujo", "gender"=>"action", "description"=>"una peli de un perro malvado"}, "commit"=>"Create Movie"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0939ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=movies documents=[{"_id"=>BSON::ObjectId('57321b026e61630ef2000000'), "name"=>"kujo", "gender"=>"action", "description"=>"una peli de un perro malvado"}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6598ms
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 870ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-05-10 19:31:47 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4425ms
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 131ms (Views: 130.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:31:48 +0200
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-10 19:32:12 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html within layouts/application (106.6ms)
+Completed 500 Internal Server Error in 111ms
+
+ActionView::Template::Error (undefined method `highlight' for nil:NilClass):
+    3:   <%= f.submit :search %>
+    4: <% end %>
+    5: 
+    6: <%= @result.first.highlight.description.first.html_safe %>
+    7: 
+    8: 
+    9: <style type="text/css">
+  app/views/movies/search.html:6:in `_app_views_movies_search_html__3122415140549067376_53769780'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/movies/search/kujo" for 127.0.0.1 at 2016-05-10 19:32:25 +0200
+
+ActionController::RoutingError (No route matches [GET] "/movies/search/kujo"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.8ms)
+
+
+Started GET "/movies/" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3347ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2563ms
+  Rendered movies/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 79ms (Views: 78.3ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:32:32 +0200
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-10 19:33:09 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `highlight' for nil:NilClass):
+  app/views/movies/search.html:6:in `_app_views_movies_search_html__3122415140549067376_53769780'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-10 19:33:15 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `highlight' for nil:NilClass):
+  app/views/movies/search.html:6:in `_app_views_movies_search_html__3122415140549067376_53769780'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (3.0ms)
+
+
+Started GET "/movies/" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7332ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3201ms
+  Rendered movies/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 86ms (Views: 85.2ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:33:26 +0200
+
+
+Started GET "/movies/" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3460ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2653ms
+  Rendered movies/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 54ms (Views: 53.1ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:34:06 +0200
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-10 19:34:10 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `highlight' for nil:NilClass):
+    4:   <%= f.submit :search %>
+    5: <% end %>
+    6: 
+    7: <%= @result.first.highlight.description.first.html_safe %>
+    8: 
+    9: 
+   10: <style type="text/css">
+  app/views/movies/search.html.erb:7:in `_app_views_movies_search_html_erb___3050732577204974107_53422700'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.7ms)
+
+
+Started GET "/movies/search/kujo" for 127.0.0.1 at 2016-05-10 19:35:34 +0200
+
+ActionController::RoutingError (No route matches [GET] "/movies/search/kujo"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/movies/search=kujo" for 127.0.0.1 at 2016-05-10 19:35:41 +0200
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"search=kujo"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2699ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={"_id"=>"search=kujo"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1720ms
+Completed 404 Not Found in 2ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Movie with id(s) search=kujo.
+Summary:
+  When calling Movie.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): search=kujo ... (1 total) and the following ids were not found: search=kujo.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/movies_controller.rb:74:in `set_movie'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/movies/" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3203ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2028ms
+  Rendered movies/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 52ms (Views: 46.6ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-10 19:59:41 +0200
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-10 19:59:45 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined local variable or method `search_path' for #<#<Class:0x00000006b8bab8>:0x0000000379ce50>):
+    1: <h1>New movie</h1>
+    2: <%= simple_form_for :movies, url: search_path do |f| %>
+    3:   <%= f.input :query %>
+    4:   <%= f.submit :search %>
+    5: <% end %>
+  app/views/movies/search.html.erb:2:in `_app_views_movies_search_html_erb___3050732577204974107_53422700'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.5ms)
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-10 20:02:38 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined local variable or method `search_path' for #<#<Class:0x00000006b8bab8>:0x00000006b30488>):
+    1: <h1>New movie</h1>
+    2: <%= simple_form_for :movies, url: search_path do |f| %>
+    3:   <%= f.input :query %>
+    4:   <%= f.submit :search %>
+    5: <% end %>
+  app/views/movies/search.html.erb:2:in `_app_views_movies_search_html_erb___3050732577204974107_53422700'
+
+
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /var/lib/gems/2.1.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
