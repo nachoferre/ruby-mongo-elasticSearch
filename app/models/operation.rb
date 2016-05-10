@@ -1,29 +1,31 @@
-
 class Operation
   include Mongoid::Document
   include Mongoid::Enum
 
-  field :op, type: [:add, :div, :mult, :subs]
-  field :op1, type: Integer
-  field :op2, type: Integer
-  field :t0, type: Time
-  field :t1, type: Time
-  field :estimation, type: String
+  after_create :calculate_result
+
+
+
+  #enum, :operations [:add, :sub, :mul, :div]
+#["+", "-", "*", "/"]
+  field :op, type: String
+  field :time0, type: Float
+  field :time1, type: Float
+  field :timetot, type: Float
+  field :num1, type: Integer
+  field :num2, type: Integer
+  field :resultado, type: Integer
 
   def total_time
-    t1 - t0
+      update_attributes(timetot: (time1 - time0))
   end
 
-  def estimate
-    self.estimation = HTTP.get("http://localhost:5000/predict/#{op1.to_f}/").to_s
+  def check_result(result)
+      resultado == result
   end
 
-  def self.create_random
-    @operation = Operation.new
-    @operation.op1 = rand(10)
-    @operation.op2 = rand(10)
-    @operation.estimate
-    @operation.t0 = Time.new
-    @operation.save
-  end
+  private
+    def calculate_result
+        update_attributes(resultado: num1.public_send(op,num2))
+    end
 end

@@ -1,24 +1,24 @@
 Rails.application.routes.draw do
-  get 'games/:id/like' => 'games#like', as: :me_gusta
+    root "operation#index"
 
-  get 'operations/new' => 'operations#new', as: :new_operation
-  post 'operations/:id/answer' => 'operations#answer', as: :answer_operation
+  get 'operations/new' => 'operation#new'
+  post 'operation/answer' => 'operation#answer'
+  get 'operation/answer' => 'operation#answer'
+  resources :operation
 
   get 'movies/search' => 'movies#search'
   post 'movies/search' => 'movies#search', as: :search
-  
+
   resources :games
   resources :movies
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  
-  root 'operations#index'
+  # root 'welcome#index'
 
   # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

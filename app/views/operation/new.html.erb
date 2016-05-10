@@ -1,0 +1,29 @@
+<h1>trabaja</h1>
+<table>
+    <head>
+        <tr>
+            <th>operando 1</th>
+            <th>operacion</th>
+            <th>operando 2</th>
+            <th>resultado</th>
+            <th colspan="7"></th>
+        </tr>
+    </head>
+    <br>
+    <tbody>
+        <tr>
+            <th><%=@operation.num1%></th>
+            <th><%=@operation.op%></th>
+            <th><%=@operation.num2%></th>
+            <th>
+                <%= form_for @operation, url: { action: "answer", id: @operation.id }, html: { method: "answer" } do |f| %>
+                <%= f.label :resultado %><br>
+                <%= f.text_field :resultado, :value => "" %>
+
+                <%= f.submit 'Join', :name => "join" %>
+                <% end %>
+            </th>
+        </tr>
+    </tbody>
+</table>
+<br>

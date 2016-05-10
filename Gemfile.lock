@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/elasticsearch/elasticsearch-rails.git
-  revision: a714d5931182501531d2ce6b767bcb3c97ce56a7
-  specs:
-    elasticsearch-model (0.1.8)
-      activesupport (> 3)
-      elasticsearch (> 0.4)
-      hashie
-    elasticsearch-rails (0.1.8)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,7 +27,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
     arel (5.0.1.20140414130214)
     bson (2.3.0)
     builder (3.2.2)
@@ -49,31 +38,9 @@ GEM
       execjs
     coffee-script-source (1.9.0)
     connection_pool (2.1.1)
-    domain_name (0.5.20160310)
-      unf (>= 0.0.5, < 1.0.0)
-    elasticsearch (1.0.17)
-      elasticsearch-api (= 1.0.17)
-      elasticsearch-transport (= 1.0.17)
-    elasticsearch-api (1.0.17)
-      multi_json
-    elasticsearch-transport (1.0.17)
-      faraday
-      multi_json
     erubis (2.7.0)
     execjs (2.3.0)
-    faraday (0.9.2)
-      multipart-post (>= 1.2, < 3)
-    hashie (3.4.4)
     hike (1.2.3)
-    http (1.0.4)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (~> 1.0.1)
-      http_parser.rb (~> 0.6.0)
-    http-cookie (1.0.2)
-      domain_name (~> 0.5)
-    http-form_data (1.0.1)
-    http_parser.rb (0.6.0)
     i18n (0.7.0)
     jbuilder (2.2.7)
       activesupport (>= 3.0.0, < 5)
@@ -98,7 +65,6 @@ GEM
       connection_pool (~> 2.0)
       optionable (~> 0.2.0)
     multi_json (1.10.1)
-    multipart-post (2.0.0)
     optionable (0.2.0)
     origin (2.1.1)
     rack (1.5.2)
@@ -131,9 +97,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    simple_form (3.2.1)
-      actionpack (> 4, < 5.1)
-      activemodel (> 4, < 5.1)
     spring (1.3.2)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -154,18 +117,12 @@ GEM
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
-  elasticsearch-model!
-  elasticsearch-rails!
-  http
   jbuilder (~> 2.0)
   jquery-rails
   mongoid (~> 4.0.0)
@@ -173,10 +130,9 @@ DEPENDENCIES
   rails (= 4.1.9)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
-  simple_form
   spring
   turbolinks
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.11.2
+   1.12.0.rc
