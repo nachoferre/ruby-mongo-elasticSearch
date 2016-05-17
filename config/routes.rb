@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   resources :operation
 
   get 'movies/search' => 'movies#search'
-  #post 'movies/search' => 'movies#search', as: :search
+  post 'movies/search' => 'movies#search', as: :search
 
   resources :games
   resources :movies

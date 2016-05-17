@@ -4,7 +4,11 @@
   <%= f.submit :search %>
 <% end %>
 
-<%= @result.first.highlight.description.first.html_safe %>
+<%= data = JSON.parse(@result.response.to_json) %>
+<%= data["hits"].each do |hits|%>
+<%= hits%>
+<%= end%>
+<%= %>
 
 
 <style type="text/css">
