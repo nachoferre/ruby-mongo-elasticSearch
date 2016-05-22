@@ -9,6 +9,7 @@ class Movie
   field :gender, type: String
   field :description, type: String
 
+
   before_create :check_values
 
   def check_values

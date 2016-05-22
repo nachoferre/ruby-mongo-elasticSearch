@@ -1,2 +1,21 @@
 <h1>Gran trabajo, operacion realizada</h1>
+<br>
+<br>
+<h4>Has tardado:
+    <%= @operation.timetot%>
+</h4>
+
+<h4>Se estimaba:
+    <%= @operation.estimacion%>
+</h4>
+
+<% if @operation.timetot < @operation.estimacion.to_f%>
+<p>
+    Gran trabajo, eres mas rapido que la mayoria
+</p>
+<% else %>
+<p>
+    Has sido demasiado lento!
+</p>
+<%end%>
 <%= link_to 'Otra mas', new_operation_path %> |

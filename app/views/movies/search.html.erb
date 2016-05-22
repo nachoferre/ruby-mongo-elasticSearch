@@ -1,16 +1,17 @@
-<h1>New movie</h1>
-<%= simple_form_for :movies, url: search_path do |f| %>
+<h1>New search</h1>
+
+<%= simple_form_for :movies, :remote => true, :html => {id: "search-form"} do |f| %>
   <%= f.input :query %>
   <%= f.submit :search %>
 <% end %>
 
-<%= data = JSON.parse(@result.response.to_json) %>
-<%= data["hits"].each do |hits|%>
-<%= hits%>
-<%= end%>
-<%= %>
-
-
+<%if @result.first %>
+<%= @result.first.highlight.description.first.html_safe %>
+<% else%>
+<p>
+    no hay datos
+</p>
+<%end%>
 <style type="text/css">
 em{
   color: red;
