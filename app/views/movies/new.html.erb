@@ -1,5 +1,65 @@
-<h1>New movie</h1>
+<style media="screen">
+.simple_form div.input {
+margin-bottom: 10px;
+clear: both; /* Required for Webkit, but not for Gecko */
+text-align: center;
+}
 
+.simple_form label {
+align-items: center;
+width: 100px;
+text-align: right;
+margin: 2px 10px;
+}
+
+div.boolean, .simple_form input[type='submit'] {
+margin-left: 50%;
+}
+
+div.boolean label, label.collection_radio_buttons {
+float: none;
+margin: 0;
+}
+
+label.collection_radio_buttons {
+margin-right: 10px;
+vertical-align: -2px;
+margin-left: 2px;
+}
+
+.field_with_errors {
+background-color: #ff3333;
+}
+
+.simple_form .error {
+clear: left;
+color: black;
+display: block;
+margin-left: 120px;
+}
+
+.simple_form .hint {
+clear: left;
+margin-left: 120px;
+color: #555;
+display: block;
+font-style: italic;
+}
+
+input.radio {
+margin-right: 5px;
+vertical-align: -3px;
+}
+
+.center{
+
+    text-align: center;
+}
+</style>
+
+<h1 class="center">New movie</h1>
+<br>
+<br>
 <%= render 'form' %>
 
 <%= link_to 'Back', movies_path %>

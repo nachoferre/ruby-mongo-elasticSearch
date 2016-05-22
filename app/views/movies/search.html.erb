@@ -1,19 +1,27 @@
-<h1>New search</h1>
-
-<%= simple_form_for :movies, :remote => true, :html => {id: "search-form"} do |f| %>
-  <%= f.input :query %>
-  <%= f.submit :search %>
-<% end %>
-
-<%if @result.first %>
-<%= @result.first.highlight.description.first.html_safe %>
-<% else%>
-<p>
-    no hay datos
-</p>
-<%end%>
 <style type="text/css">
 em{
   color: red;
 }
+
+.button{
+    text-align: center
+}
+.form-inline div { display: inline-block }
+abbr[title="required"] {
+  display: none;
+}
 </style>
+<h1 id="title" style="text-align: center">New search</h1>
+<br>
+<div class="button">
+<%= simple_form_for :movies, :remote => true, :html => { :class => "form-inline"} do |f| %>
+
+  <%= f.input :query, :label => "" %>
+  <%= f.submit :search %>
+  </div>
+<% end %>
+
+<div id = "datos">
+
+
+</div>

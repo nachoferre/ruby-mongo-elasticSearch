@@ -7,6 +7,7 @@ class MoviesController < ApplicationController
     @result = Movie.search(q)
     respond_to do |format|
         format.html {@result}
+        format.js {}
         format.json { render json: @result }
     end
   end

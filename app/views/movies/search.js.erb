@@ -1,0 +1,7 @@
+console.log(<%= raw(@result.to_json)%>)
+var result = <%= raw(@result.to_json)%>
+document.getElementById("datos").innerHTML = "";
+function foreachmovie(element, index, array){
+$(document.getElementById("datos")).append("<p >"+element.highlight.description[0]+"<p>");}
+
+result.forEach(foreachmovie);
