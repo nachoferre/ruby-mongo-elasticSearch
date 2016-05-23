@@ -1,6 +1,6 @@
 <%= simple_form_for @movie do |f| %>
   <%= f.input :name %>
-  <%= f.input :gender %>
+  <%= f.association :gender %>
   <%= f.input :description, as: :text %>
   <%= f.button :submit %>
 <% end %>

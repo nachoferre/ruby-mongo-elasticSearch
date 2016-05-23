@@ -6,7 +6,7 @@ class Movie
   include Elasticsearch::Model::Callbacks
 
   field :name, type: String
-  field :gender, type: String
+  belongs_to :gender
   field :description, type: String
 
 
@@ -38,7 +38,7 @@ class Movie
 
         highlight: {
           fields: {
-            description: {fragment_size: 100, number_of_fragments: 3},
+            description: {fragment_size: 200, number_of_fragments: 0},
             name: {fragment_size: 100, number_of_fragments: 3}
           }
         }

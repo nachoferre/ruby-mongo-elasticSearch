@@ -10,18 +10,55 @@ em{
 abbr[title="required"] {
   display: none;
 }
+<style>
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+.head{
+    background-color: #4CAF50;
+    color: white;
+}
+.title{
+    text-align: center;
+    vertical-align: middle;
+}
 </style>
+</style>
+
 <h1 id="title" style="text-align: center">New search</h1>
 <br>
+<%= link_to 'Main', index_path %>
+<br>
 <div class="button">
-<%= simple_form_for :movies, :remote => true, :html => { :class => "form-inline"} do |f| %>
+<%= simple_form_for :movies, :remote => true, :html => { :class => "form-inline", :id => "sayt"} do |f| %>
 
-  <%= f.input :query, :label => "" %>
+  <%= f.input :query, :label => "", :id => "sayt" %>
   <%= f.submit :search %>
   </div>
 <% end %>
 
-<div id = "datos">
-
+<div>
+<table>
+    <thead>
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Descripcion</th>
+        </tr>
+    </thead>
+    <tbody id = "datos">
+    </tbody>
+</table>
 
 </div>

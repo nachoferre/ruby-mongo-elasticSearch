@@ -8,9 +8,12 @@ Rails.application.routes.draw do
 
   get 'movies/search' => 'movies#search'
   post 'movies/search' => 'movies#search', as: :search
-
+  get 'movies/index' => 'movies#index'
+  post 'movies/index' => 'movies#index', as: :index
   resources :games
   resources :movies
+
+  resources :genders
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

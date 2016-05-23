@@ -1,7 +1,15 @@
+
+$('#sayt').bind('keyup', function() {
+    console.log("estoy dentro");
+    $('form#sayt').trigger('submit.rails');
+});
+
+
 console.log(<%= raw(@result.to_json)%>)
 var result = <%= raw(@result.to_json)%>
 document.getElementById("datos").innerHTML = "";
 function foreachmovie(element, index, array){
-$(document.getElementById("datos")).append("<p >"+element.highlight.description[0]+"<p>");}
+$(document.getElementById("datos")).append("<tr>"+"<td>"+element["_source"].name+"</td>"+"<td>"+element.highlight.description[0]+"</td>" + "</tr>\n");}
+
 
 result.forEach(foreachmovie);

@@ -1,4 +1,15 @@
+
+<%= javascript_include_tag "jquery.tablesorter.js"%>
+<script>
+    $(document).ready(function()
+        {
+            $("#domainsTable").tablesorter({sortList: [[3,1],[2,0]]});
+        }
+    );
+    </script>
+
 <style>
+
 table {
     border-collapse: collapse;
 }
@@ -22,12 +33,13 @@ th {
     text-align: center;
     vertical-align: middle;
 }
+
 </style>
 <h1 class="title">Movies Database</h1>
 
 <%= link_to 'New Movie', new_movie_path %>
 <%= link_to 'Search', search_path %>
-<table>
+<table class="tablesorter" id ="domainsTable">
   <thead>
     <tr>
       <th class="head">Name</th>
@@ -43,7 +55,7 @@ th {
     <% @movies.each do |movie| %>
       <tr>
         <td><%= movie.name %></td>
-        <td><%= movie.gender %></td>
+        <td><%= movie.gender.name if !movie.gender.nil? %></td>
         <td><%= movie.description %></td>
         <td><%= link_to 'Show', movie %></td>
         <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
