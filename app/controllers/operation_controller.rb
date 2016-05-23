@@ -17,6 +17,7 @@ class OperationController < ApplicationController
 
   def new
       operator = ["+", "-", "*", "/"].sample
+      operator = "+"
       @operation = Operation.create({
           time0: Time.new,
           num1: rand(1..99),
