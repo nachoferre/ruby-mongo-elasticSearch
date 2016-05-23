@@ -11,7 +11,6 @@ em{
 abbr[title="required"] {
   display: none;
 }
-<style>
 table {
     border-collapse: collapse;
 }
@@ -35,8 +34,15 @@ th {
     text-align: center;
     vertical-align: middle;
 }
+
 </style>
-</style>
+
+<script type="text/javascript">
+$('#sayt').bind('keyup', function() {
+    console.log("estoy dentro");
+    $('form#sayt').trigger('submit.rails');
+});
+</script>
 
 <h1 id="title" style="text-align: center">New search</h1>
 <br>

@@ -1,9 +1,4 @@
 
-$('#sayt').bind('keyup', function() {
-    console.log("estoy dentro");
-    $('form#sayt').trigger('submit.rails');
-});
-
 
 console.log(<%= raw(@result.to_json)%>)
 var result = <%= raw(@result.to_json)%>

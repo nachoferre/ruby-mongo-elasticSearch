@@ -92130,3 +92130,231 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-23 15:01:10 +0200
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 15:01:10 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+Processing by OperationController#index as HTML
+  Rendered operation/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 204ms (Views: 193.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/genders.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/genders.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/jquery.tablesorter.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:27 +0200
+
+
+Started GET "/movies" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+Processing by MoviesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5414ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=movies selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.8408ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9696e616342bb080000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3534ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9406e616342bb060000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2376ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9266e616342bb030000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2055ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9f66e616342bb0c0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2588ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9266e616342bb030000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3494ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9386e616342bb050000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1948ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9406e616342bb060000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1960ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9406e616342bb060000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2712ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9266e616342bb030000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1514ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9b96e616342bb0a0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9b96e616342bb0a0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1858ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e91c6e616342bb020000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1596ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e91c6e616342bb020000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1452ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9406e616342bb060000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1653ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9f66e616342bb0c0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2005ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9c26e616342bb0b0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1672ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9b96e616342bb0a0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4343ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9b96e616342bb0a0000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3081ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9406e616342bb060000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2119ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e91c6e616342bb020000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1720ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9266e616342bb030000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1603ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=genders selector={"$query"=>{"_id"=>BSON::ObjectId('5742e9266e616342bb030000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1839ms
+  Rendered movies/index.html.erb within layouts/application (47.7ms)
+Completed 200 OK in 133ms (Views: 113.3ms)
+
+
+Started GET "/assets/genders.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/games.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/genders.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/jquery.tablesorter.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 22:28:32 +0200
+
+
+Started GET "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:36 +0200
+Processing by MoviesController#search as HTML
+  Rendered movies/search.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 94ms (Views: 93.5ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:39 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"a"}}
+  Rendered movies/search.js.erb (228.7ms)
+Completed 200 OK in 231ms (Views: 230.1ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:43 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"c"}}
+  Rendered movies/search.js.erb (10.3ms)
+Completed 200 OK in 14ms (Views: 12.9ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:43 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"cu"}}
+  Rendered movies/search.js.erb (7.3ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:44 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"cuj"}}
+  Rendered movies/search.js.erb (55.5ms)
+Completed 200 OK in 57ms (Views: 56.8ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:44 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"cujo"}}
+  Rendered movies/search.js.erb (26.8ms)
+Completed 200 OK in 29ms (Views: 28.2ms)
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started GET "/assets/genders.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 22:28:47 +0200
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:55 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"cuj"}}
+  Rendered movies/search.js.erb (27.7ms)
+Completed 200 OK in 31ms (Views: 30.0ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:55 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"cu"}}
+  Rendered movies/search.js.erb (8.9ms)
+Completed 200 OK in 12ms (Views: 11.0ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:55 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"c"}}
+  Rendered movies/search.js.erb (7.3ms)
+Completed 200 OK in 13ms (Views: 12.2ms)
+
+
+Started POST "/movies/search" for 127.0.0.1 at 2016-05-23 22:28:58 +0200
+Processing by MoviesController#search as JS
+  Parameters: {"utf8"=>"✓", "movies"=>{"query"=>"a"}}
+  Rendered movies/search.js.erb (33.0ms)
+Completed 200 OK in 37ms (Views: 35.4ms)
